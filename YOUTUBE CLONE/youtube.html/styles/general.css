@@ -1,0 +1,24 @@
+p{
+  margin: 0;
+}
+
+body{
+  /* this style below will be inherited */
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(250, 250, 250);
+  font-family: Roboto,Arial;
+
+}
+@media (min-width: 1200.1px) {
+  body {
+    margin-left: 168px;
+  }
+}
+/* specificity
+inheritance
+media
+{semantic elements sam as div (have meaning to screen readers)*/
+
